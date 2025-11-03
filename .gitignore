@@ -1,0 +1,8 @@
+*.db
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+*.pyc
+*Copy*.ipynb
+trial*.ipynb
+*.csv
