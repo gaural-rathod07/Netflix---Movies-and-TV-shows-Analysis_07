@@ -73,14 +73,12 @@ Sample visuals (see `/Images` folder):
 
 ## 📁 Repository Structure
 
-```
 Netflix---Movies-and-TV-shows-Analysis_07/
 │
 ├── Netflix-analysis.ipynb # Main Jupyter notebook (cleaning, EDA, SQL)
 ├── Images/ # Exported preview images (graphs, charts)
 ├── .gitignore
 └── README.md
-```
 
 ---
 
