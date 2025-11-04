@@ -48,7 +48,7 @@ The notebook contains the following sections and visualizations:
 Sample visuals (see `/Images` folder):  
 - `top_genres.png`  
 - `content_by_year.png`
-- - `movie_duration.png`
+- `movie_duration.png`
 
 ---
 
