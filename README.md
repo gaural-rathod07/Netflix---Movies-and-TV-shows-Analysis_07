@@ -21,7 +21,7 @@ It demonstrates data cleaning, exploratory data analysis (EDA), and SQL integrat
 - **Source:** [Kaggle — Netflix Movies & TV Shows Dataset](https://www.kaggle.com/shivamb/netflix-shows)  
 - **Rows:** ~8,800  
 - **Columns:** 12  
-- **Fields include:** `title`, `type`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, `description`
+- **Fields include:** `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, `description`
 
 > **Note:** Dataset used for educational purposes. Original dataset author credited above.
 
