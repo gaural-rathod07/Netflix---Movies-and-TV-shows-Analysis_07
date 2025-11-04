@@ -30,7 +30,7 @@ It demonstrates data cleaning, exploratory data analysis (EDA), and SQL integrat
 ## 🧹 Data Cleaning
 Key cleaning steps performed:
 - Removed duplicates and trimmed whitespace from text fields.
-- Converted `date_added` to `datetime`, created `year_added`.
+- Converted `date_added` to `datetime`.
 - Extracted `primary_genre` from `listed_in` (first genre).
 - Parsed `duration` into `duration_num` and `duration_kind`.
 - Handled missing values (kept as `Unknown` where appropriate).
@@ -44,18 +44,20 @@ The notebook contains the following sections and visualizations:
 - **Top 10 genres:** Primary genre counts  
 - **Country distribution:** Top countries by title count  
 - **Duration analysis:** Movie length distribution and TV seasons  
-- *(Optional)* Top directors and rating distribution  
 
 Sample visuals (see `/images` folder):  
 - `top_genres.png`  
 - `content_by_year.png`
+- - `movie_duration.png`
 
 ---
 
 ## 🛢 SQL Integration
 - Data loaded into a local SQLite database (`netflix.db`) using SQLAlchemy.  
 - Example SQL queries included:
-  - Top countries by content  
+  - Type distribution: Movies vs. TV Shows  
+  - Top countries by content
+  - Top 10 genres: Primary genre counts  
   - Titles added per year  
   - Movies longer than 120 minutes  
 
@@ -70,10 +72,10 @@ Sample visuals (see `/images` folder):
 ---
 
 ## 📁 Repository Structure
-Netflix_Movies_TV_Analysis/
+Netflix---Movies-and-TV-shows-Analysis_07/
 │
-├── Netflix_Analysis.ipynb # Main Jupyter notebook (cleaning, EDA, SQL)
-├── images/ # Exported preview images (graphs, charts)
+├── Netflix-analysis.ipynb # Main Jupyter notebook (cleaning, EDA, SQL)
+├── Images/ # Exported preview images (graphs, charts)
 ├── .gitignore
 └── README.md
 
