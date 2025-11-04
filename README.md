@@ -91,8 +91,8 @@ To analyze the Netflix dataset and uncover insights into how Netflix’s content
 
 🧑‍💻 Author
 
-Analysis & Visualizations by: Gaural Rathod
-📚 B.E. in Information Technology
-💡 Aspiring Data Analyst | Python | Power BI | SQL
+Analysis & Visualizations by: Gaural Rathod  
+📚 B.E. in Information Technology  
+💡 Aspiring Data Analyst | Python | Power BI | SQL  
 
 📌 *This project is intended for educational and portfolio purposes.*
